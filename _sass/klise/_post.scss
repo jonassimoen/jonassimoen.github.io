@@ -39,6 +39,21 @@
       font-size: 1.9em;
     }
   }
+  .header-description {
+    font-size: 1em;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+
+    &.center {
+      text-align: center;
+    }
+
+    @include media-query($on-mobile) {
+      font-size: 1.9em;
+    }
+  }
 }
 
 // Post meta
